@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample test(failed)">
+    <classes>
+      <class name="orangedemo.demos">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- orangedemo.demos -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Demo suite] -->
